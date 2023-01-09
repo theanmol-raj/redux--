@@ -8,6 +8,7 @@ function C1(){
     <C2  />
   </div>
 }
+
 function C2(){
   return <div>
       <h1>C2</h1>
@@ -20,7 +21,6 @@ function C3(){
       <C4  />
   </div>
 }
-
 function C4(){
   const [va ,va2] = useContext(Env);
   
@@ -29,6 +29,7 @@ function C4(){
     <p>hi again {va} {va2}</p>
   </div>
 }
+
 
 function App() {
   const [va ,setVa] = useState("Anmol")
